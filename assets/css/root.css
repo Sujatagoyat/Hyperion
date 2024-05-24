@@ -1,0 +1,116 @@
+:root{
+    --fs-s:16px;
+    --fs-sm:14px;
+    --fs-lg:21.24px;
+    --fs-md:28px;
+    --fs-xl:30px;
+    --fs-2xl:56px;
+    --fs-3xl:42px;
+    /* --------- font clr------- */
+    --fc-black: #0B0B0B;
+    --fc-white:#FFFFFF;
+    --fc-offwhite: #F9F9F7B2;
+   --fc-darkgrey: #18191B;
+
+}
+/* ------------------------------------ font clr----------------------- */
+.clr-black{
+    color: var(--fc-black);
+}
+.clr-white{
+    color: var(--fc-white);
+}
+.clr-offwhite{
+    color: var(--fc-offwhite);
+}
+.clr-darkgrey{
+    color: var(--fc-darkgrey);
+}
+/* ------------------------------ font size -------------------------------------- */
+.text-16{
+    font-size: var(--fs-s);
+}
+.text-18{
+    font-size: var(--fs-sm);
+}
+.text-21{
+    font-size: var(--fs-lg);
+}
+.text-28{
+    font-size: var(--fs-md);
+}
+.text-30{
+    font-size: var(--fs-xl);
+}
+.text-56{
+    font-size: var(--fs-2xl);
+}
+.text-68{
+    font-size: var(--fs-3xl);
+}
+/* --------------------------- font weight ------------------------ */
+.fw-400{
+    font-weight: 400 !important;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+/* -------------------------------- line height ------------------------------------------- */
+.lh-20{
+    line-height: 20.8px;
+}
+.lh-68{
+    line-height: 50px;
+}
+.lh-23{
+    line-height: 23.4px;
+}
+.lh-27{
+    line-height: 27.61px;
+}
+.lh-56{
+    line-height: 56px;
+}
+.lh-30{
+    line-height: 30px;
+}
+.lh-36{
+    line-height: 36.4px;
+}
+.lh-19{
+    line-height: 19.2px;
+}
+/* -------------------- font family --------------------------- */
+.ff-pppins{
+    font-family: 'Poppins',sans-serif;
+}
+@media (min-width:576px) {
+    :root{
+        --fs-3xl:42px;
+        --fs-sm:18px;
+    }
+
+}
+@media (min-width:768px) {
+    :root{
+        --fs-3xl:50px;
+    }
+}
+
+@media (min-width:992px) {
+    :root{
+        --fs-s:16px;
+        --fs-sm:18px;
+        --fs-lg:21.24px;
+        --fs-md:28px;
+        --fs-xl:30px;
+        --fs-2xl:56px;
+        --fs-3xl:68px;
+    }
+    .lh-68{
+        line-height: 68px;
+    }
+}
