@@ -4,7 +4,7 @@
     --fs-lg:21.24px;
     --fs-md:28px;
     --fs-xl:30px;
-    --fs-2xl:56px;
+    --fs-2xl:38px;
     --fs-3xl:42px;
     /* --------- font clr------- */
     --fc-black: #0B0B0B;
@@ -78,7 +78,7 @@
     line-height: 27.61px;
 }
 .lh-56{
-    line-height: 56px;
+    line-height: 46px;
 }
 .lh-30{
     line-height: 30px;
@@ -90,19 +90,24 @@
     line-height: 19.2px;
 }
 /* -------------------- font family --------------------------- */
-.ff-pppins{
+.ff-poppins{
     font-family: 'Poppins',sans-serif;
 }
 @media (min-width:576px) {
     :root{
         --fs-3xl:42px;
         --fs-sm:18px;
+        --fs-2xl:40px;     
+    }
+    .lh-56{
+        line-height: 56px;
     }
 
 }
 @media (min-width:768px) {
     :root{
         --fs-3xl:50px;
+        --fs-2xl:56px;
     }
 }
 
