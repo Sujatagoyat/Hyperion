@@ -11,6 +11,9 @@
     --fc-white:#FFFFFF;
     --fc-offwhite: #F9F9F7B2;
    --fc-darkgrey: #18191B;
+ --fc-svgclr: #1F1F1F8A;
+ --fc-borderclr:#191919;
+
 
 }
 /* ------------------------------------ font clr----------------------- */
@@ -25,6 +28,9 @@
 }
 .clr-darkgrey{
     color: var(--fc-darkgrey);
+}
+.clr-svgclr{
+    color: var(--fc-svgclr);
 }
 /* ------------------------------ font size -------------------------------------- */
 .text-16{

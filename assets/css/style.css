@@ -36,7 +36,7 @@ background-size: cover;
     transition: all 300ms linear;
 }
 .gradient-text { 
-    background: -webkit-linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%);
+    background: linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -87,6 +87,95 @@ background-size: cover;
     mask-composite: exclude;
     transition: all 300ms linear;
 } 
+.bg-img{
+    background-image: url(../images/png/bg-img.png);
+    background-size: cover;
+}
+/* ============================================================================================== */
+.max-w-1095{
+    max-width: 1095px;
+}
+.pt-lg-140{
+    padding-top: 140px;
+}
+.overflow-img{
+    /* top: 60%; */
+    left: 0;
+    /* transform: translatey(-60%); */
+}
+.max-w-1208{
+    max-width: 1208px;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+.bg-clr-black{
+    background: var(--fc-black);
+}
+.svg-box{
+    width: 92px;
+    height: 92px;
+    border-radius: 24px;
+    background: var(--fc-svgclr);
+    border: 1px solid #F9F9F714;
+}
+.max-w-340{
+    max-width: 340px;
+}
+.max-w-270{
+    max-width: 270px;
+}
+.pt-lg-48{
+    padding-top: 48px;
+}
+.pt-lg-24{
+    padding-top: 24px;
+}
+.border_right{
+    border-right: 1px solid var(--fc-borderclr);
+}
+.pl-48{
+    padding-left: 48px;
+}
+.mr-lg-48{
+    margin-right: 48px;
+}
+.ml-lg-48{
+    margin-left: 48px;
+}
+.max-w-496{
+    max-width: 496px;
+}
+.gap-48{
+    gap: 48px;
+}
+.experience-box{
+    max-width: 1368px;
+    width: 100%;
+    /* height: 200px; */
+    padding: 64px 71px 64px 84px;
+    border-radius: 24px;
+    background-image: url(../images/png/experience-bg-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mt-64{
+    margin-top: 64px;
+}
+.max-w-795{
+    max-width: 765px;
+}
+/* =========================================== hyperion features ================================================== */
+.py_lg_140_165{
+    padding-top: 140px;
+    padding-bottom: 165px;
+}
+.pb-lg-84{
+    padding-bottom: 84px;
+}
+.max-w-392{
+    max-width: 392px;
+}
+
 
 @media (max-width:992px) {
     .overFlowHidden {
@@ -160,6 +249,9 @@ background-size: cover;
         transition: all 300ms linear;
         position: relative;
         top: -4px;
+    }
+    .flex_wrap{
+        flex-wrap: wrap;
     }
 }
 @media (min-width:576px) {
