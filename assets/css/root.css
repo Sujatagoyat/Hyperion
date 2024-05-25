@@ -5,7 +5,7 @@
     --fs-md:15px;
     --fs-xl:20px;
     --fs-2xl:20px;
-    --fs-3xl:42px;
+    --fs-3xl:35px;
     /* --------- font clr------- */
     --fc-black: #0B0B0B;
     --fc-white:#FFFFFF;
@@ -70,7 +70,7 @@
     line-height: 20.8px;
 }
 .lh-68{
-    line-height: 46px;
+    line-height: 39px;
 }
 .lh-23{
     line-height: 23.4px;
