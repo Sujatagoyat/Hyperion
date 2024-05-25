@@ -500,6 +500,9 @@
     padding-right: 12px;
     margin-left: auto;margin-right: auto;
 }
+.mt_-21{
+    margin-top: -21px;
+}
 .pulse {
     animation: pulse-animation  2s infinite;
   }
@@ -514,6 +517,11 @@
   }
 .opacity_50{
     opacity: 50%;
+}.mb_8{
+    margin-bottom: 8px;
+}
+.pl-lg-57{
+    padding-left: 57px;
 }
 @media (max-width:992px) {
     .flex_wrap {
@@ -619,6 +627,9 @@
     }
 .gap-sm-20{
     gap: 20px;
+}
+.mb_0{
+    margin-bottom: 0;
 }
     /* .transform_property {
         transform: translateY(600px) !important;
