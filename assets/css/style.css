@@ -563,7 +563,7 @@
 
     .menuIcon>span {
         width: 100%;
-        height: 4px;
+        height: 2px;
         background: var(--fc-offwhite);
         position: relative;
         z-index: 3;
@@ -589,10 +589,10 @@
     }
 
     .cross span:nth-child(1) {
-        transform: rotate(47deg) translateY(0px);
+        transform: rotate(56deg) translateY(0px);
         transition: all 300ms linear;
         position: relative;
-        top: 11px;
+        top: 9px;
     }
 
     .cross span:nth-child(2) {
@@ -602,10 +602,10 @@
     }
 
     .cross span:nth-child(3) {
-        transform: rotate(130deg) translateY(0px);
+        transform: rotate(120deg) translateY(0px);
         transition: all 300ms linear;
         position: relative;
-        top: -4px;
+        top: -7px;
     }
 
     .flex_wrap {
