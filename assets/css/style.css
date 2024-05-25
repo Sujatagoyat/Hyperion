@@ -130,7 +130,7 @@
     max-width: 1208px;
 }
 
-/* -------------------------------------------------------------------------------------------------------- */
+/* ==========strugling=========== */
 .bg-clr-black {
     background: var(--fc-black);
 }
@@ -143,13 +143,6 @@
     border: 1px solid #F9F9F714;
 }
 
-.max-w-340 {
-    max-width: 340px;
-}
-
-.max-w-270 {
-    max-width: 270px;
-}
 
 .pt-lg-48 {
     padding-top: 48px;
@@ -159,24 +152,16 @@
     padding-top: 24px;
 }
 
-.border_right {
-    border-right: 1px solid var(--fc-borderclr);
-}
-
 .pl-48 {
     padding-left: 48px;
 }
 
-.mr-lg-48 {
+/* .mr-lg-48 {
     margin-right: 48px;
-}
+} */
 
 .ml-lg-48 {
     margin-left: 48px;
-}
-
-.max-w-496 {
-    max-width: 496px;
 }
 
 .gap-48 {
@@ -246,7 +231,7 @@
     max-width: 418px;
 }
 
-/* ================================================================ hyperion family ====================================================== */
+/* =============== hyperion family ============= */
 .family-bg-img {
     background-image: url(../images/png/family-bg-img.png);
     background-size: cover;
@@ -333,11 +318,7 @@
     margin-bottom: 10px;
 }
 
-/* ======================================================== overflow-section ===================================================== */
-.h_582 {
-    height: 582px;
-}
-
+/* =============== overflow-section ================== */
 .mission_bg_img {
     background-image: url(../images/png/bg-overflow-img.png);
     background-size: 100%
@@ -370,9 +351,9 @@
     background-size: 100% 100%;
 }
 
-.pt-lg-71 {
+/* .pt-lg-71 {
     padding-top: 71px;
-}
+} */
 
 .pt_140{
     padding-top: 140px;
@@ -381,18 +362,19 @@
     padding-bottom: 64px;
 }
 
-.mt-lg-48 {
+/* .mt-lg-48 {
     margin-top: 48px;
-}
+} */
 
 .decentralized_grident {
     background: linear-gradient(360deg, #0B0B0B 38.82%, rgba(11, 11, 11, 0) 100%);
+    /* background: red; */
     max-width: 768px;
     width: 100%;
     height: 298px;
     z-index: 1;
     opacity: 95%;
-
+    bottom: 240px;
 }
 
 .decentalized_grey_grident {
@@ -410,10 +392,17 @@
 .mb_171 {
     margin-bottom: 171px;
 }
+.transform_property{
+    transform: translateY(491px);
+}
 
 
 
 @media (max-width:992px) {
+    .flex_wrap{
+        flex-wrap: wrap;
+    }
+ 
     .overFlowHidden {
         overflow: hidden !important;
     }
@@ -502,6 +491,9 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .transform_property{
+        transform: translateY(600px) !important;
+    }
 }
 
 @media (min-width:768px) {
@@ -549,6 +541,30 @@
     .max-w-786 {
         max-width: 786px;
     }
+    .max-w-496 {
+        max-width: 496px;
+    }
+    .max-w-340 {
+        max-width: 340px;
+    }
+    .max-w-270 {
+        max-width: 270px;
+    }
+    .transform_property{
+        transform: translateY(0) !important;
+    }
+    .mr-lg-48 {
+        margin-right: 48px;
+    }
+    .mt-lg-48 {
+        margin-top: 48px;
+    }
+    .border_right {
+        border-right: 1px solid var(--fc-borderclr);
+    }
+    .h_582 {
+        height: 582px;
+    }
 
     /* .pb-lg-48{
         padding-bottom: 48px;
@@ -556,7 +572,9 @@
     .pb-lg-48 {
         padding-bottom: 48px;
     }
-
+    .pt-lg-71 {
+        padding-top: 71px;
+    }
     .pt-lg-30 {
         padding-top: 30px;
     }
