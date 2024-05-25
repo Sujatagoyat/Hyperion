@@ -14,17 +14,17 @@
     <header class="hero-bg-img min-vh-100">
         <div class="container">
             <nav class="d-flex align-items-center justify-content-between h-81">
-                <img src="./assets/images/svg/logo.svg" alt="logo">
+                <a href=""><img src="./assets/images/svg/logo.svg" alt="logo"></a>
                 <ul class="d-flex align-items-center gap-24 mb-0 menulist" id="navbar">
-                    <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite" onclick="opeNav()">Welcome</a>
+                    <li><a href="#Welcome" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite nav_link bottom_line position-relative" onclick="opeNav()">Welcome</a>
                     </li>
-                    <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap" onclick="opeNav()">Trade with
+                    <li><a href="#Trade" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap nav_link bottom_line position-relative" onclick="opeNav()">Trade with
                             AI</a></li>
-                    <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap" onclick="opeNav()">Discover
+                    <li><a href="#Discover" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap nav_link bottom_line position-relative" onclick="opeNav()">Discover
                             features</a></li>
-                    <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap" onclick="opeNav()">Join
+                    <li><a href="#Join" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap nav_link bottom_line position-relative" onclick="opeNav()">Join
                             community</a></li>
-                    <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap" onclick="opeNav()">Get
+                    <li><a href="#Get" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap nav_link bottom_line position-relative" onclick="opeNav()">Get
                             support</a></li>
                 </ul>
                 <div class="menuIcon d-lg-none " onclick="opeNav()">
@@ -36,7 +36,7 @@
                     <button class="fw-500 text-16 lh-20 ff-poppins clr-black nav-btn mb-0 text-nowrap">Start trading</button>
                 </div>
             </nav>
-            <div class="pt-lg-100 pt-md-50 pt-30">
+            <div class="pt-lg-100 pt-md-50 pt-30" id="Welcome">
                 <div class="row row-gap-5">
                     <div class="col-xl-8 col-lg-7">
                         <button
@@ -65,8 +65,33 @@
             </div>
         </div>
     </header>
+    <!-- =============================================== easy ========================================================= -->
+    <section class="bg-clr-black">
+        <div class="container-fluid">
+            <div class="easy_box position-relative">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <img class="w-100 h-100 object-fit-contain" src="./assets/images/png/ease-img.png" alt="img">
+                    </div>
+                    <div class="col-lg-6 pt-lg-83 pt-md-40 pt-20 d-flex flex-column align-items-end">
+                        <h2 class="fw-500 text-56 lh-56 ff-poppins  gradient-text max-w-576 pb-lg-24 mb-0">Ease and diversity in trading</h2>
+                        <p class="fw-400 text-18 lh-23 ff-poppins clr-offwhite max-w-576 pb-lg-223 pb-md-100 pb-30">At Hyperion, we harness the power of AI to make perps trading effortless, efficient, and exciting. Hyperion equips you
+                        with everything necessary to grasp the your potential trades thoroughly, make a completely informed trading decision,
+                        and execute the trade in seconds.
+                           </p>
+                           <div class="pb-lg-5 pb-2">
+                               <div class="border_left pl-24  ">
+                               <p class="fw-400 text-18 lh-23 ff-poppins clr-offwhite max-w-576 ">We've built a trader-friendly interface for you that's simple to use and easy to understand</p>
+                               <p class="fw-400 text-18 lh-23 ff-poppins clr-offwhite max-w-576 ">Plus, we offer over 70 tokens and pairs to trade, giving you plenty of options to trade</p>
+                               </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ============================================= decentalized overflow ================================================ -->
-    <section class="decentakized_bg_img position-relative  mb_171 pt_140">
+    <section class="decentakized_bg_img position-relative  mb_140 pt_140" id="Trade">
         <div class="decentalized_grey_grident position-absolute z-1 end-0 d-xl-block d-none"></div>
             <div class="container">
                 <h2 class="ff-poppins fw-500 text-56 lh-56 gradient-text max-w-1095 pb_64"> Hyperion isn't just another trading platform – it's your partner in perps trading</h2>
@@ -106,8 +131,8 @@
                         assistance.</p>
                 </div>
                 <div class="col-lg-6 col-12 mt-lg-0 mt-md-5 mt-sm-4 mt-3">
-                    <div class="overflow_img position-absolute">
-                        <img class="w_100 w-100 w_lg_100 h-100 object-fit-cover" src="./assets/images/png/price-overflow.png"
+                    <div class="overflow_img position_absolute">
+                        <img class="w_100 w-100 w_lg_100 h-100 object-fit-cover" src="./assets/images/png/mission-overflow-2.png"
                             alt="Price-overflow-img">
                         <div class="mission_grident position-absolute w-100 end-0 bottom-0 d-lg-block d-none"></div>
                     </div>
@@ -116,10 +141,10 @@
         </div>
     </section>
     <!-- ==================================================== struggling  section ============================================= -->
-    <section class="bg-clr-black pt-lg-100 transform_property">
+    <section class="bg-clr-black pt-lg-100 transform_property" id="Discover">
         <div class="container">
-            <div class="ro w d-flex flex_wrap gap-48 flex_ wrap flex- wrap justify-content-center">
-                <div class="border_right">
+            <div class="ro w d-flex flex_wrap gap-lg-48 gap-sm-20 gap_10 flex_ wrap flex- wrap justify-content-center mt-lg-0 mt-md-5 mt-3">
+                <div class="border_right w-sm-100">
                     <div class="svg-box d-flex align-items-center justify-content-center">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -127,13 +152,13 @@
                                 fill="#F2C922" />
                         </svg>
                     </div>
-                    <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-340 mb-0 pt-lg-48">Struggling with
+                    <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-340 mb-0 pt-lg-48 pt_15">Struggling with
                         extensive research on tokens?</p>
-                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-270 pt-lg-24">Hyperion-AI streamlines
+                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-270 pt-lg-4 pt-md-3 pt-2">Hyperion-AI streamlines
                         the process for you.</p>
 
                 </div>
-                <div class="border_right">
+                <div class="border_right w-sm-100">
                     <div class=" mr-lg-48">
                         <div class="svg-box d-flex align-items-center justify-content-center">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -147,13 +172,13 @@
                             </svg>
 
                         </div>
-                        <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-340 mb-0 pt-lg-48">Feeling
+                        <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-340 mb-0 pt-lg-48 pt_15">Feeling
                             overwhelmed by charts, graphs, and reports?</p>
-                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-270 pt-lg-24">Let Hyperion-AI
+                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-270 pt-md-3 pt-2">Let Hyperion-AI
                             handle the heavy lifting.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="blank">
                     <div class=" ml-lg-4 8">
                         <div class="svg-box d-flex align-items-center justify-content-center">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -163,21 +188,22 @@
                                     stroke="#F2C922" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-
                         </div>
-                        <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-496 mb-0 pt-lg-48">Finding it
+                        <p class="fw-500 text-30 lh-30 ff-poppins gradient-text max-w-496 mb-0 pt-lg-48 pt_15">Finding it
                             difficult to consolidate scattered research into actionable insights?</p>
-                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-496 pt-lg-24">Hyperion-AI compiles
+                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-496 pt-md-3 pt-2">Hyperion-AI compiles
                             real-time data into easy-to-implement reports, guiding your trading decisions.</p>
                     </div>
                 </div>
             </div>
             <div class="experience-box mt-64">
-                <div class="d-flex justify-content-between">
-                    <h2 class="fw-400 text-28 lh-36 ff-poppins clr-offwhite max-w-795 mb-0">Experience the power of
-                        Hyperion-AI, developed for the perps and futures market, and trade with confidence</h2>
+                <div class="d-flex flex_wrap justify-content-lg-between justify-content-center">
+                    <h2 class="fw-400 text-28 lh-36 ff-poppins clr-offwhite max-w -795 mb-0"><span class="d-xl-block">
+                        Experience the power of
+                            Hyperion-AI, developed for the
+                    </span> perps and futures market, and trade with confidence</h2>
                     <div class="blank">
-                        <button class="fw-500 text-16 lh-20 ff-poppins clr-black btnn mb-0 text-nowrap">Start
+                        <button class="fw-500 text-16 lh-20 ff-poppins clr-black btnn mb-0 text-nowrap mt-lg-0 mt-md-3 mt-sm-2 mt-1">Start
                             trading</button>
                     </div>
                 </div>
@@ -190,50 +216,50 @@
             <h1 class="fw-500 text-56 lh-56 ff-poppins gradient-text text-center pb-lg-84">The Hyperion Features
             </h1>
             <div class="row">
-                <div class="col-lg-4 col-m d-6 border_right">
-                    <img src="./assets/images/png/AI-1.png" alt="img">
-                    <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mb-0">AI-Assisted Queries</h3>
-                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-24 mb-0">Trade like never
+                <div class="col-lg-4 col-m d-6 border_right justify-content-center d-flex flex-column align-ite ms-center">
+                    <img class="w-100 max_W_392" src="./assets/images/png/AI-1.png" alt="img">
+                    <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mt-lg-0 mt-2 mb-0">AI-Assisted Queries</h3>
+                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-4 pt-md-3 pt-2">Trade like never
                         before with Hyperion's AI-assisted queries. Receive comprehensive reports on tokens and trading
                         pairs, make well-informed trades swiftly.
                     </p>
                 </div>
-                <div class="col-lg-4 col- md-6 border_right d-flex align-items-center flex-column ">
+                <div class="col-lg-4 col- md-6 border_right  flex-column justify-content-center d-flex flex-column align-items-center ">
                     <div class="blank">
-                        <img src="./assets/images/png/multi-chain-2.png" alt="img">
-                        <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mb-0">Multi-Chain Trading
+                        <img class="w-100 max_W_392" src="./assets/images/png/multi-chain-2.png" alt="img">
+                        <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mt-lg-0 mt-2 mb-0">Multi-Chain Trading
                         </h3>
-                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-24 mb-0">Trade your
+                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-4 pt-md-3 pt-2">Trade your
                             favorite tokens/trading pairs across DeFi giants like AVAX, OP & ARB. Explore over 70 tokens
                             and pairs on GMX, Synthentix, and Polynomial chains – all consolidated on our single,
                             user-friendly platform.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col- md-6 d-flex align-items-center flex-column">
+                <div class="col-lg-4 col  md-6 d-flex align-items-center flex-column justify-content-center d-flex flex-column align-items-center">
                     <div class="blank">
-                        <img src="./assets/images/png/advance-3.png" alt="img">
-                        <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mb-0">Advanced AI Assistance
+                        <img class="w-100 max_W_392" src="./assets/images/png/advance-3.png" alt="img">
+                        <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text pt-lg-48 mt-lg-0 mt-2 mb-0">Advanced AI Assistance
                         </h3>
-                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-24 mb-0">Engage with our
+                        <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-4 pt-md-3 pt-2">Engage with our
                             AI via text or voice commands for lightning-fast trades. Stay ahead with real-theme market
                             insights and personalized currency analysis, tailored to your unique trading needs.
                         </p>
                     </div>
                 </div>
-                <div class="border_bottom my-lg-48"></div>
-                <div class="col-lg-4 col- md-6 border_right">
+                <div class="border_bottom my-lg-48 d-lg-block d-none"></div>
+                <div class="col-lg-4 col- md-6 border_right justify-  content-center d-flex flex-column align-items -center">
                     <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text  mb-0">Integrations
                     </h3>
-                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-24 pb-52 mb-0">GMX,
+                    <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-355 pt-lg-4 pt-2 pb-52 pb_21 mb-0">GMX,
                         SYNTHENTIX, AGGR TRADE, 0x Protocol, TradingView
                     </p>
-                    <img src="./assets/images/png/integration-4.png" alt="img">
+                    <img class="w-100 max_W_392" src="./assets/images/png/integration-4.png" alt="img">
                 </div>
-                <div class="col-lg-4 col- md-6">
-                    <img src="./assets/images/png/indicator-5.png" alt="img">
+                <div class="col-lg-4 col- md-6 justify-conten t-center d-flex flex-column align-item s-center mt-lg-0 mt-2">
+                    <img class="w-100 max_W_392 h_294" src="./assets/images/png/indicator-5.png" alt="img">
                 </div>
-                <div class="col-lg-4 col- md-6">
+                <div class="col-lg-4 col- md-6 justify-conten t-center d -flex flex-column align-items-center mt-lg-0 mt-2">
                     <div>
                         <h3 class="fw-500 text-30 lh-30 ff-poppins gradient-text">AI Trading Indicators </h3>
                         <p class="fw-400 text-16 lh-20 ff-poppins clr-offwhite max-w-440">Gain a competitive edge with
@@ -367,7 +393,7 @@
         </div>
     </section>
     <!-- ================================================= hyperion family ===================================================== -->
-    <section class="family-bg-img py-lg-165 py-md-90 py-sm-50 py-30">
+    <section class="family-bg-img py-lg-165 py-md-90 py-sm-50 py-30" id="Join">
         <div class="container">
             <h2 class="fw-500 text-56 lh-56 gradient-text ff-poppins mb-0 text-center">The Hyperion Family</h2>
             <p class="fw-400 text-18 lh-23 ff-poppins clr-offwhite max-w-816 text-center mx-auto pt-lg-32">Collaboate &
@@ -382,19 +408,19 @@
         </div>
     </section>
     <!-- ================================================= footer =========================================================== -->
-    <section class="bg-clr-black">
+    <section class="bg-clr-black" id="Get">
         <div class="border_top"></div>
         <div class="container">
             <div class="row pt-lg-84 pt-md-40 pt-20 row-gap-4">
                 <div class="col-lg-5">
-                    <img src="./assets/images/svg/logo.svg" alt="svg">
+                    <a href=""><img src="./assets/images/svg/footer-logo.svg" alt="svg"></a>
                     <p
                         class="fw-400 text-16 lh-20 ff-poppins clr-offwhite pt-lg-32 pt-md-20 pt-10 pb-lg-48 pb-md-20 pb-10 mb-0">
                         Curious about AI-powered trading and how it can help you up your game? Reach out to our
                         dedicated team today and discover how Hyperion can fool-proof your future trades.
                     </p>
                     <div class="d-flex gap-17">
-                        <a href="">
+                        <a href="https://www.instagram.com/" target="_blank" class="zoom">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -402,7 +428,7 @@
                                     fill="#F9F9F7" />
                             </svg>
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/" target="_blank" class="zoom">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -411,7 +437,7 @@
                             </svg>
 
                         </a>
-                        <a href="">
+                        <a href="https://x.com/?lang=en" target="_blank" class="zoom">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -419,7 +445,7 @@
                                     fill="#F9F9F7" />
                             </svg>
                         </a>
-                        <a href="">
+                        <a href="https://in.linkedin.com/" target="_blank" class="zoom">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_4605_7879)">
@@ -434,40 +460,39 @@
                                 </defs>
                             </svg>
                         </a>
-                        <a href="">
+                        <a href="https://telegram.org/" target="_blank" class="zoom">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M1.96275 11.8742L6.79275 13.5145L18.261 6.50346C18.4275 6.40221 18.5978 6.62796 18.4545 6.75996L9.7725 14.7512L9.45 19.225C9.44473 19.2999 9.46237 19.3747 9.50058 19.4394C9.53878 19.504 9.59575 19.5556 9.66392 19.5872C9.73209 19.6187 9.80825 19.6288 9.8823 19.6161C9.95634 19.6034 10.0248 19.5685 10.0785 19.516L12.7515 16.8872L17.6385 20.5862C18.165 20.9852 18.9278 20.704 19.0695 20.059L22.4723 4.60896C22.6665 3.72771 21.8025 2.98371 20.9603 3.30621L1.93875 10.5902C1.34175 10.819 1.35825 11.6687 1.96275 11.8742Z"
                                     fill="#F9F9F7" />
                             </svg>
-
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-7   ">
                     <ul class="d-flex align-ite ms-center gap-24 mb-0 justify-content-lg-end ps-0 flex-wrap ">
-                        <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap">Welcome</a>
+                        <li><a href="#Welcome" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap bottom_line position-relative">Welcome</a>
                         </li>
-                        <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap">Trade with
+                        <li><a href="#Trade" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap bottom_line position-relative ">Trade with
                                 AI</a></li>
-                        <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap">Discover
+                        <li><a href="#Discover" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap bottom_line position-relative ">Discover
                                 features</a></li>
-                        <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap">Join
+                        <li><a href="#Join" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap bottom_line position-relative ">Join
                                 community</a></li>
-                        <li><a href="" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap">Get
+                        <li><a href="#Get" class="fw-400 text-16 lh-20 ff-poppins clr-offwhite text-nowrap bottom_line position-relative ">Get
                                 support</a></li>
                     </ul>
                     <div class="d-flex flex-column align-items-lg-end justify-content-lg-end pt-lg-84 pt-md-30 pt-20">
-                        <p class="fw-400 text-18 lh-23 ff-poppins clr-white  pb-lg-24">+1 (0801) 590-75-66</p>
-                        <p class="fw-400 text-18lh-23 ff-poppins clr-white mb-0">hyperion@gmail.com</p>
+                        <a href="tel:+4733378901" class="fw-400 text-18 lh-23 ff-poppins clr-white  pb-lg-24 bottom_line position-relative">+1 (0801) 590-75-66</a>
+                        <a href=" mailto:hyperion@gmail.com" class="fw-400 text-18 lh-23 ff-poppins clr-white mb-0 bottom_line position-relative">hyperion@gmail.com</a>
                     </div>
                 </div>
                 <div class="border_bottom my-lg-32 my-md-20 my-10"></div>
             </div>
             <div>
                 <div class="d-flex justify-content-between pb-lg-33 flex-wrap">
-                    <p class="fw-400 text-16 lh-19 ff-poppins clr-offwhite mb-0 text-nowrap">Copyright@2024 Hyperion</p>
+                    <p class="fw-400 text-16 lh-19 ff-poppins clr-offwhite mb-0 text-nowrap opacity_50">Copyright@2024 Hyperion</p>
                     <div class="d-flex align-items-center gap-2">
                         <p class="fw-400 text-16 lh-19 ff-poppins mb-0 clr-offwhite mb-0 text-nowrap">Designed by</p>
                         <img src="./assets/images/svg/Affarts_Logo.svg" alt="logo">
@@ -475,6 +500,15 @@
                 </div>
             </div>
 
+        </div>
+        <div class="topBtn pulse d-flex align-items-center justify-content-center pulse  ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="white" class="bi bi-chevron-double-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                <path fill-rule="evenodd"
+                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+            </svg>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
