@@ -826,6 +826,9 @@
     .position_absolute{
         position: absolute;
     }
+    .h-582{
+        height: 582px;
+    }
 }
 @media (min-width:1200px) {
     .pb-lg-223 {
