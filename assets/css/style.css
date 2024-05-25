@@ -122,6 +122,9 @@
 .pt-lg-140 {
     padding-top: 140px;
 }
+.pt_30{
+    padding-top: 30px;
+}
 
 .overflow-img {
     /* top: 60%; */
@@ -182,23 +185,15 @@
     background-repeat: no-repeat;
 }
 
-.mt-64 {
-    margin-top: 64px;
+
+.mt-40{
+    margin-top: 40px;
 }
 
 /* =========================================== hyperion features ================================================== */
-.py_lg_140_165 {
-    padding-top: 135px;
-    /* padding-bottom: 165px; */
+.pt_40{
+    padding-top: 40px;
 }
-
-.pb-lg-84 {
-    padding-bottom: 84px;
-}
-
-/* .pt-lg-48 {
-    padding-top: 48px;
-} */
 
 .pt-lg-24 {
     padding-top: 24px;
@@ -344,17 +339,16 @@
     background-image: url(../images/png/overflow1-bg-img.png);
     background-size: 100% 100%;
 }
+.mb_40{
+    margin-bottom: 40px;
+}
 
 /* .pt-lg-71 {
     padding-top: 71px;
 } */
 
-.pt_140 {
-    padding-top: 140px;
-}
-
-.pb_64 {
-    padding-bottom: 64px;
+.pt_100 {
+    padding-top: 100px;
 }
 
 /* .mt-lg-48 {
@@ -384,9 +378,7 @@
 
 }
 
-.mb_140 {
-    margin-bottom: 140px;
-}
+
 
 /* .transform_property {
     transform: translateY(491px);
@@ -533,6 +525,7 @@
     .h_294{
         height: 294px;
     }
+   
     .overFlowHidden {
         overflow: hidden !important;
     }
@@ -621,6 +614,9 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .pt_sm_50{
+        padding-top: 50px;
+    }
 .gap-sm-20{
     gap: 20px;
 }
@@ -694,7 +690,24 @@
     .max-w-340 {
         max-width: 340px;
     }
-
+    .pt_lg_100{
+        padding-top: 100px;
+    }
+    .mb_lg_100{
+        margin-bottom: 100px;
+    }
+    .pb_lg_64 {
+        padding-bottom: 64px;
+    }
+    .pb-lg-84 {
+        padding-bottom: 84px;
+    }
+    .mt-lg-64 {
+        margin-top: 64px;
+    }
+    .pt_lg_80{
+        padding-top: 80px;
+    }
     .max-w-270 {
         max-width: 270px;
     }
@@ -807,6 +820,16 @@
     .pb-lg-223 {
         padding-bottom: 223px;
     }
+    .pt_xl_140 {
+        padding-top: 140px;
+    }
+    .mb_xl_140 {
+        margin-bottom: 140px;
+    }
+    .py_lg_140_165 {
+        padding-top: 135px;
+    }
+  
 }
 
 @media (min-width:1400px) {
