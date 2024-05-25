@@ -428,7 +428,7 @@
 }
 
 .easy_box {
-    max-width: 1468px;
+    /* max-width: 1468px; */
     width: 100%;
     padding: 0px 60px;
     background: #101010;
@@ -502,6 +502,11 @@
 }
 .opacity_50{
     opacity: 50%;
+}
+.custam_container{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;margin-right: auto;
 }
 .pulse {
     animation: pulse-animation  2s infinite;
@@ -748,6 +753,9 @@
         padding-top: 30px;
     }
 
+    .pt-lg-10 {
+        padding-top: 10px;
+    }
     .pt-lg-100 {
         padding-top: 100px;
     }
